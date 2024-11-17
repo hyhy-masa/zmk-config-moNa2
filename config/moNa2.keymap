@@ -44,7 +44,7 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 4 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
     };
@@ -65,14 +65,14 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W      &kp E     &kp R                    &kp T                                                                   &kp Y            &kp U  &lt 5 I    &kp O    &kp P
+&kp Q         &kp W      &kp E     &kp R                    &kp T                                                                   &kp Y            &kp U  &lt 4 I    &kp O    &kp P
 &kp A         &kp S      &kp D     &kp F                    &kp G                   &kp LS(LG(S))             &kp MINUS             &kp H            &kp J  &kp K      &kp L    &kp SQT
 &kp Z         &kp X      &kp C     &kp V                    &kp B                   &kp COLON                 &kp SEMICOLON         &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_ALT  &kp LCTRL  &kp RCMD  &mt LEFT_SHIFT CAPSLOCK  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 3 ENTER    &lt_to_layer_0 1 DEL  &lt 2 BACKSPACE                             &to 4
+&kp LEFT_ALT  &kp LCTRL  &kp RCMD  &mt LEFT_SHIFT CAPSLOCK  &lt_to_layer_0 0 SPACE  &lt_to_layer_0 4 ENTER    &lt_to_layer_0 0 DEL  &lt 4 BACKSPACE                             &to 6
             >;
 
             sensor-bindings =
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
@@ -116,10 +116,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                       &kp N6     &kp N7            &kp NUMBER_8  &kp N9         &kp N0
+&trans  &trans  &trans  &trans  &trans  &trans    &kp RA(E)  &kp RA(W)  &kp RS(RG(LBKT))  &kp RG(RBKT)  &kp RS(RG(T))  &kp N4
+&trans  &trans  &trans  &trans  &trans  &trans    &trans     &kp RG(W)  &kp RG(LBKT)      &kp RG(RBKT)  &kp RG(RS(T))  &kp RIGHT_SHIFT
+&kp N   &kp R   &kp R   &kp W   &kp R   &kp R     &kp R      &kp R                                                     &kp BSPC
             >;
         };
 
