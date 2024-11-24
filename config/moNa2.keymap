@@ -63,7 +63,7 @@
 &kp DEL                     &kp PERIOD  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9                                  &kp CARET         &kp AMPERSAND       &kp TILDE           &kp F4               &kp F5
 &kp BACKSPACE               &kp COMMA   &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp NUMBER_0    &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN         &kp RS(UP_ARROW)    &kp DOLLAR           &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp EQUAL       &trans          &kp LEFT_BRACKET  &kp RS(LEFT_ARROW)  &kp RS(DOWN_ARROW)  &kp RS(RIGHT_ARROW)  &kp BACKSLASH
-&kp RA(SPACE)               &kp PLUS    &trans        &kp RS(RG(V))  &kp RG(C)     &kp RG(V)       &trans          &trans                                                                         &kp PIPE
+&kp RA(SPACE)               &kp PLUS    &kp CAPS      &kp RS(RG(V))  &kp RG(C)     &kp RG(V)       &trans          &trans                                                                         &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_BLUE_BUTTON C_BLUE>;
