@@ -72,8 +72,8 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp F1                  &kp F3          &kp LC(F4)               &trans                     &kp RA(E)  &kp RG(F1)                &kp F8                     &kp F3                &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans    &trans  &kp RA(W)  &kp RS(RG(LEFT_BRACKET))  &kp RS(RG(RIGHT_BRACKET))  &kp RG(RS(NUMBER_4))  &bt BT_NXT
+&kp ESCAPE      &kp F1                  &kp F3          &kp F4                   &trans                     &kp RA(E)  &kp F1                    &kp F8                     &kp F3                &trans
+&kp HOME        &kp F5                  &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans    &trans  &kp RA(W)  &kp RS(RG(LEFT_BRACKET))  &kp RS(RG(RIGHT_BRACKET))  &kp RG(RS(NUMBER_4))  &bt BT_NXT
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &kp RG(W)  &kp RG(LEFT_BRACKET)      &kp RG(RIGHT_BRACKET)      &trans                &bt BT_PRV
 &kp RA(SPACE)   &kp INT_HENKAN          &kp LANGUAGE_3  &kp RS(LANGUAGE_8)       &trans   &trans    &trans  &trans                                                                                &bt BT_CLR
             >;
