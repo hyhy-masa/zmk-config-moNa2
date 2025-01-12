@@ -52,10 +52,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE    &kp LEFT_SHIFT        &mkp MB2               &mkp MB1      &mkp MB3                                          &kp KP_EQUAL  &kp F2          &kp UP_ARROW            &kp RG(S)                &kp RG(R)
-&kp TAB       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp EXCLAMATION  &bt BT_NXT      &kp RS(RCMD)     &kp F6        &kp LEFT_ARROW  &kp DOWN_ARROW          &kp RIGHT_ARROW          &kp F10
-&kp HASH      &kp LESS_THAN         &kp GREATER_THAN       &kp AT        &kp BACKSLASH    &bt BT_SEL 0    &kp RIGHT_SHIFT  &kp RCMD      &trans          &kp RS(RC(DOWN_ARROW))  &kp RS(RC(RIGHT_ARROW))  &kp F11
-&kp LEFT_ALT  &kp LG(F)             &kp LG(X)              &kp LG(Z)     &kp LS(LG(Z))    &kp LG(Y)       &kp RG(A)        &kp RC(C)                                                                      &kp RIGHT_SHIFT
+&kp ESCAPE    &kp LEFT_SHIFT        &mkp MB2               &mkp MB1      &mkp MB3                                       &kp KP_EQUAL  &kp F2          &kp UP_ARROW            &kp RG(S)                &kp RG(R)
+&kp TAB       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp EXCLAMATION  &kp COLON    &kp RS(RCMD)     &kp F6        &kp LEFT_ARROW  &kp DOWN_ARROW          &kp RIGHT_ARROW          &kp F10
+&kp HASH      &kp LESS_THAN         &kp GREATER_THAN       &kp AT        &kp BACKSLASH    &kp SEMI     &kp RIGHT_SHIFT  &kp RCMD      &trans          &kp RS(RC(DOWN_ARROW))  &kp RS(RC(RIGHT_ARROW))  &kp F11
+&kp LEFT_ALT  &kp LG(F)             &kp LG(X)              &kp LG(Z)     &kp LS(LG(Z))    &kp LG(Y)    &kp RG(A)        &kp RC(C)                                                                      &kp RIGHT_SHIFT
             >;
         };
 
