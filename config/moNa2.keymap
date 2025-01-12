@@ -40,7 +40,7 @@
         default_layer {
             bindings = <
 &kp Q         &kp W      &kp E     &kp R     &kp T                                                                   &kp Y                       &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S      &kp D     &kp F     &kp G                   &bt BT_CLR_ALL            &kp MINUS             &kp H                       &kp J  &kp K      &kp L    &kp SQT
+&kp A         &kp S      &kp D     &kp F     &kp G                   &bt BT_CLR_ALL            &kp MINUS             &kp H                       &kp J  &kp K      &kp L    &kp MINUS
 &kp Z         &kp X      &kp C     &kp V     &kp B                   &bt BT_NXT                &kp SEMICOLON         &kp N                       &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_ALT  &kp LCTRL  &kp RCMD  &kp CAPS  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 3 ENTER    &lt_to_layer_0 1 DEL  &lt_to_layer_0 2 BACKSPACE                             &kp RIGHT_SHIFT
             >;
@@ -74,7 +74,7 @@
             bindings = <
 &kp ESCAPE      &kp F1                  &kp F3          &kp F4                   &trans                     &kp RA(E)  &kp F1                    &kp F8                     &kp F3                &trans
 &kp HOME        &kp F5                  &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans    &trans  &kp RA(W)  &kp RS(RG(LEFT_BRACKET))  &kp RS(RG(RIGHT_BRACKET))  &kp RG(RS(NUMBER_4))  &bt BT_NXT
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &kp RG(W)  &kp RG(LEFT_BRACKET)      &kp RG(RIGHT_BRACKET)      &trans                &bt BT_PRV
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &kp RG(W)  &kp RG(LEFT_BRACKET)      &kp RG(RIGHT_BRACKET)      &kp RS(RC(T))         &bt BT_PRV
 &kp RA(SPACE)   &kp INT_HENKAN          &kp LANGUAGE_3  &kp RS(LANGUAGE_8)       &trans   &trans    &trans  &trans                                                                                &bt BT_CLR
             >;
 
