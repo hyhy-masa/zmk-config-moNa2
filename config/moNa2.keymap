@@ -26,7 +26,7 @@
     };
 
     behaviors {
-       lt_to_layer_0: lt_to_layer_0 {
+ lt_to_layer_0: lt_to_layer_0 {
     compatible = "zmk,behavior-hold-tap";
     label = "LAYER_TAP_TO_0";
     bindings = <&mo>, <&to_layer_0>;
@@ -35,6 +35,7 @@
     quick-tap-ms = <30>; // quick-tapを追加
     flavor = "balanced"; // flavorを明示的に設定
 };
+
 ht: hold_tap {
     compatible = "zmk,behavior-hold-tap";
     label = "HOLD_TAP";
