@@ -9,8 +9,9 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <0>;
-};
+    quick-tap-ms = <30>;  // 0から30に変更
+    tapping-term-ms = <50>; // 明示的に50msを設定
+}
 
 / {
     combos { compatible = "zmk,combos"; };
@@ -25,22 +26,24 @@
     };
 
     behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <130>;
+       lt_to_layer_0: lt_to_layer_0 {
+    compatible = "zmk,behavior-hold-tap";
+    label = "LAYER_TAP_TO_0";
+    bindings = <&mo>, <&to_layer_0>;
+    #binding-cells = <2>;
+    tapping-term-ms = <50>; // 130msから50msに変更
+    quick-tap-ms = <30>; // quick-tapを追加
+    flavor = "balanced"; // flavorを明示的に設定
+};
 ht: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
+    compatible = "zmk,behavior-hold-tap";
+    label = "HOLD_TAP";
+    #binding-cells = <2>;
+    tapping-term-ms = <50>; // 200msから50msに変更
+    quick-tap-ms = <30>; // 0から30に変更
+    flavor = "balanced"; // tap-preferredからbalancedに変更
+    bindings = <&kp>, <&kp>;
+};
         };
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
