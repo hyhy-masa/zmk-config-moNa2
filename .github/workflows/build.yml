@@ -1,16 +1,4 @@
-name: Build
-
-on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "docs/**"
-      - "**/*.md"
-  pull_request:
-    branches: [main]
-    paths-ignore:
-      - "docs/**"
-      - "**/*.md"
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
