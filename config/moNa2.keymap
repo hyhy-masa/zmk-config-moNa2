@@ -29,6 +29,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
             bindings = <&mo>, <&to_layer_0>;
+
             #binding-cells = <2>;
             tapping-term-ms = <50>;
             quick-tap-ms = <30>;
@@ -43,13 +44,6 @@
             quick-tap-ms = <30>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
-        };
-
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-            tap-ms = <20>;
         };
     };
 
@@ -73,10 +67,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE        &kp LEFT_SHIFT    &mkp MB2           &mkp MB1      &mkp MB3                                       &kp F1     &kp F6                    &kp UP_ARROW            &kp RG(S)        &kp RG(R)
-&kp TAB           &kp HASH          &kp RS(AMPERSAND)  &kp QUESTION  &kp EXCLAMATION  &kp COLON    &kp RS(RCMD)     &kp EQUAL  &kp LEFT_ARROW            &kp DOWN_ARROW          &kp RIGHT_ARROW  &kp F10
-&kp PERCENT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &kp BACKSLASH    &kp SEMI     &kp RIGHT_SHIFT  &kp RCMD   &kp RS(RG(LEFT_BRACKET))  &kp RS(LG(DOWN_ARROW))  &kp RS(LG(T))    &kp F11
-&kp LEFT_COMMAND  &kp LG(F)         &kp LG(X)          &kp LG(Z)     &kp LS(LG(Z))    &kp LG(Y)    &kp RG(A)        &kp RG(X)                                                                     &kp RIGHT_SHIFT
+&kp ESCAPE        &kp LEFT_SHIFT    &mkp MB2           &mkp MB1      &mkp MB3                                       &kp F1     &kp F6                    &kp UP_ARROW               &kp RG(S)        &kp RG(R)
+&kp TAB           &kp HASH          &kp RS(AMPERSAND)  &kp QUESTION  &kp EXCLAMATION  &kp COLON    &kp RS(RCMD)     &kp EQUAL  &kp LEFT_ARROW            &kp DOWN_ARROW             &kp RIGHT_ARROW  &kp F10
+&kp PERCENT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &kp BACKSLASH    &kp SEMI     &kp RIGHT_SHIFT  &kp RCMD   &kp RS(RG(LEFT_BRACKET))  &kp RS(LG(RIGHT_BRACKET))  &kp RS(LG(T))    &kp F11
+&kp LEFT_COMMAND  &kp LG(F)         &kp LG(X)          &kp LG(Z)     &kp LS(LG(Z))    &kp LG(Y)    &kp RG(A)        &kp RG(X)                                                                        &kp RIGHT_SHIFT
             >;
         };
 
